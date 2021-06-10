@@ -1,0 +1,254 @@
+/* ここから下に記載していく */
+
+
+
+/* 真ん中よせ */
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+/* ヘッダー */
+.C{
+    display: flex;
+}
+
+.navigation{
+    display: flex;
+    color: black;
+    margin: 30px 40px 30px 200px; 
+}
+.about{
+    padding: 30px;
+    font-size: x-large;
+}
+
+
+/* 写真*/
+.concept{
+    font-size: 50px;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+.academy{
+    font-size: xx-large;
+    color: white;
+    padding-bottom: 10%;    
+    text-align: center;    
+}
+.picture{
+    background-image: url(../img/mainbg.png);
+    background-size: cover;
+}
+
+/* ABOUT */
+.ABOUT{
+    padding: 10px;
+    color:goldenrod;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.about_cheeseacademy{
+    text-align: center;
+    margin: 50px;
+}
+
+.sentence{
+    color:black;
+    font-size: x-large;
+}
+
+/* image */
+.image{
+    display: flex;
+    max-width: 100%;
+}
+
+/* ４つの写真 */
+.pictures{
+    width: 25%;
+}
+/* ？？もう少し写真を縦長に出す方法はありますか？ */
+
+/* COURCE */
+.cource{
+    text-align: center;
+    color: black;
+    font-size: x-large;
+}
+
+.start{
+    font-size: x-large;
+    margin: 0 120px;
+}
+
+/* ３枚の写真と文章 */
+
+.nouen{
+    display: flex;
+    max-width: 100%;
+}
+
+/* 写真と文章１ */
+.nouen_picture{
+    width: 50%;
+}
+.nouen2{
+    background-color:ghostwhite;
+    width: 50%;
+}
+
+.nouen3{
+    color: black;
+    font-size: xx-large;
+}
+
+.nouen4{
+    font-size: x-large;
+}
+
+/* NEWS */
+.NEWS_YELLOW{
+    color: goldenrod;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.ニュース{
+    text-align: center;
+    font-size: larger;
+}
+.ニュース_NEWS{
+    font-size: larger;
+}
+.NEWS{
+    display: flex;
+}
+
+.PIZZA_PICTURE{
+    width: 100%;
+}
+
+.PIZZA{
+    width: 33.33%;
+    font-size: x-large;
+    margin: 40px;
+}
+
+/* MORE */
+.MORE{
+    background-color: goldenrod;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    margin: 0 400px;
+}
+
+/* ACCESS */
+.ACCESS_PAGE{
+    background-color:whitesmoke;
+    padding: 60px 0;
+}
+.ACCESS{
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+}
+
+.会社情報{
+    text-align: center;
+    font-size: x-large;
+}
+
+/* MAP */
+.MAP{
+    width: 100%;
+}
+/* INFORMATION */
+.information{
+    background-color:whitesmoke;
+}
+
+.flex{
+    display: flex;
+}
+
+.lEFT_SIDE{
+    box-sizing: border-box;
+    font-size: x-large;
+    width: 45%;
+    text-align: right;
+    margin: 10px;
+}
+
+.RIGHT_SIDE{
+    box-sizing: border-box;
+    font-size: x-large;
+    width: 45%;
+    text-align: left;
+    margin: 10px;
+}
+
+/* CONTACT */
+
+.attention{
+    font-size: small;
+}
+/* FORM */
+.lEFT_SIDE2{
+    box-sizing: border-box;
+    font-size: xx-large;
+    width: 35%;
+    text-align: right;
+    margin: 30px;
+}
+
+.RIGHT_SIDE2{
+    justify-content: center;
+    width: 400px;
+    text-align: left;
+    margin: 10px;
+}
+
+.box{
+    width: 700px;
+    height: 100%;
+}
+
+/* 志望動機 */
+.RIGHT_SIDE3{
+    box-sizing: border-box;
+    font-size: x-large;
+    width: 600px;
+    text-align: left;
+    margin: 10px;
+}
+
+.checkbox{
+    display: flex;
+    text-align: left;
+    width: 600px;
+}
+/* 詳細 */
+
+
+/* 送信 */
+.送信{
+    font-size: xx-large;
+    margin-left: 550px ;
+    margin-top: 60px;
+}
+
+/* footer */
+footer{
+    background-color:gray;
+    text-align: center;
+    padding: 10px;
+}
+
+.copyright{
+    font-size: x-large;
+}
